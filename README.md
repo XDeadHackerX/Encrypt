@@ -1,4 +1,4 @@
-# 🕵 Encrypt 🕵
+# 🔐 Encrypt 🔐
 
 > Herramienta creada por XDeadHackerX
 
