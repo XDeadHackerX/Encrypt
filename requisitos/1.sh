@@ -16,15 +16,15 @@ echo
 echo "[1] Informacion del Equipo"
 echo
 echo "==============================================================================================================================="
-echo "☢ Tu IP Publica es la: " `curl -s http:/ifconfig.me`"	                                                                                     |"
+echo "☢ Tu IP Publica es la: " `curl -s http:/ifconfig.me`
 echo "-------------------------------------------------------------------------------------------------------------------------------"
-echo "☢ Tu IP Local es la: " `hostname -I`"                                                                                          |"
+echo "☢ Tu IP Local es la: " `hostname -I`
 echo "-------------------------------------------------------------------------------------------------------------------------------"
-echo "☢ Tu DNS: " `cat /etc/resolv.conf`"					       |"
+echo "☢ Tu DNS: " `cat /etc/resolv.conf`
 echo "-------------------------------------------------------------------------------------------------------------------------------"
-echo "☢ Tu MAC es la: " `cat /sys/class/net/*/address`"                                                                          |"
+echo "☢ Tu MAC es la: " `cat /sys/class/net/*/address`
 echo "-------------------------------------------------------------------------------------------------------------------------------"
-echo "☢ Tu Sistema Operativo: " `uname -a`"|"
+echo "☢ Tu Sistema Operativo: " `uname -a`
 echo "-------------------------------------------------------------------------------------------------------------------------------"
 echo "☢ Informacion sobre la VPN: "
 protonvpn s	
