@@ -26,22 +26,22 @@ echo
 read -p "Elige una opcion: " opc1
 	case $opc1 in
 			1 )	echo
-				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				read -p "[*] Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
 				echo
 				sudo python requisitos/FakeData.py -n $numero
 				;;
 			2 )	echo
-				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				read -p "[*] Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
 				echo
 				sudo python requisitos/FakeData.py -n $numero -e
 				;;
 			3 )	echo
-				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				read -p "[*] Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
 				echo
 				sudo python requisitos/FakeData.py -n $numero -b
 				;;
 			4 )	echo
-				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				read -p "[*] Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
 				echo
 				sudo python requisitos/FakeData.py -n $numero && sudo python requisitos/FakeData.py -n $numero -e && sudo python requisitos/FakeData.py -n $numero -b
 				;;
