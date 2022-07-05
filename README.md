@@ -6,17 +6,17 @@ Foto
 
 ## 💡 Funciones 💡
 
-:ballot_box_with_check: Cambio de IP Publica (ProtonVPN)
+:ballot_box_with_check: Cambio de IP Pública (ProtonVPN)
 
 :ballot_box_with_check: Cambio de MAC (Aleatoria)
 
-:ballot_box_with_check: Cambio de DNS (Encriptada, no log y rapida)
+:ballot_box_with_check: Cambio de DNS (Encriptada, no log y rápida)
 
-:ballot_box_with_check: Redireccionar la Terminal a traves de Tor (Todo el trafico que salga y entre)
+:ballot_box_with_check: Redireccionar la Terminal a través de Tor (Todo el trafico que salga y entre)
 
 :ballot_box_with_check: Cambio de Mac en Tarjeta de Red Externa (Aleatoria)
 
-:ballot_box_with_check: Generar una Identidad Falsa/Fake (Nombre, Apellidos, Correo Electronico, Fecha de Nacimiento, DNI, Telefono Fijo, Telefono Movil, Ciudad, Seguridad Social, Tarjeta de Credito, Caducidad, CVV, Numero de Cuenta (IBAN))
+:ballot_box_with_check: Generar una Identidad Falsa/Fake (Nombre, Apellidos, Correo Electrónico, Fecha de Nacimiento, DNI, Teléfono Fijo, Teléfono Móvil, Ciudad, Seguridad Social, Tarjeta de Crédito, Caducidad, CVV, Número de Cuenta (IBAN))
 
 ## 🛠 Instalar Herramienta 🛠
 
@@ -32,25 +32,25 @@ Foto
 
 6) bash Encrypt.sh
 
-7) Marcamos la opcion 0 para instalar las dependencias (Solo marcar la primera vez)
+7) Marcamos la opción 0 para instalar las dependencias (Solo marcar la primera vez)
 
 8) Ya podemos disfrutar de la herramienta
 
 ## 🎲 Tener en Cuenta 🎲
 
-[1] Para poder cambiar la IP Publica debemos tener una cuenta en ProtonVPN
+[1] Para poder cambiar la IP Pública debemos tener una cuenta en ProtonVPN
 
 [2] Las opciones 4 y 5 para que funcionen de forma correcta se recomienda antes de su uso tener la Tarjeta de Red en Modo Monitor
 
-[3] En el caso de un error con la VPN (IP Publica) selecione la opcion 0(Configurar Herramienta) y luego la opcion 2(Configurar Cuenta ProtonVPN), una vez ah vuelves a introducir las credenciales que te proporciona la pagina web. (No poner el nombre o correo de nuestra cuenta si no el que nos proporciona ProtonVPN al registrarte)
- 
+[3] En el caso de un error con la VPN (IP Pública) seleccione la opción 0(Configurar Herramienta) y luego la opción 2(Configurar Cuenta ProtonVPN), una vez ah vuelves a introducir las credenciales que te proporciona la página web. (No poner el nombre o correo de nuestra cuenta sino el que nos proporciona ProtonVPN al registrarte)
+
 [4] El Script está en desarrollo, con el paso del tiempo se irá mejorando y metiendo nuevas funciones.
 
 ## 🔎 Versiones 🔎
 
-(v1.0) --->   Versión Original.
+(v1.0) ---> Versión Original.
 
-(v1.1) --->   Nuevo Apartado ([4]Generar una identidad Falsa), Restructuración visual, Correcciones visuales, Mejor experiencia para el usuario.
+(v1.1) ---> Nuevo Apartado ([4]Generar una identidad Falsa), Restructuración visual, Correcciones visuales, Mejor experiencia para el usuario.
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
