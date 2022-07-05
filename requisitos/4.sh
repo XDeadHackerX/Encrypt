@@ -7,42 +7,52 @@ echo "                               █▄─▄▄─█▄─▀█▄─▄�
 echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v1.0  ︻デ═一 " 
+echo "                               ︻デ═一  Created by: XDeadHackerX v1.1  ︻デ═一 " 
 echo "          -------------------------------------------------------------------------------------------"
 echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 echo "          -------------------------------------------------------------------------------------------"
 echo
 echo
-echo "[4] Cambiar MAC Tarjeta de RED"
+echo "[4] Generar una identidad Falsa"
 echo
-sudo airmon-ng 
+echo "=================================================================="
+echo "[1] Nombre, Apellidos, Correo Electronico, Fecha de Nacimiento""   |"
+echo "[2] DNI, Telefono Fijo, Telefono Movil, Ciudad, Seguridad Social"" |"
+echo "[3] Tarjeta de Credito, Caducidad, CVV, Numero de Cuenta (IBAN)""  |"
+echo "[4] -------------------------> TODO""<---------------------------- |"
+echo "[5] Volver al Menu""                                               |"
+echo "=================================================================="
 echo
-read -p "[*] Escribe la interfaz de la Tarjeta de Red en Modo Monitor (Ej: wlan0mon o wlan0): " interfaz2
+read -p "Elige una opcion: " opc1
+	case $opc1 in
+			1 )	echo
+				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				echo
+				sudo python requisitos/FakeData.py -n $numero
+				;;
+			2 )	echo
+				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				echo
+				sudo python requisitos/FakeData.py -n $numero -e
+				;;
+			3 )	echo
+				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				echo
+				sudo python requisitos/FakeData.py -n $numero -b
+				;;
+			4 )	echo
+				read -p "Pon el numero de Identidades Falsas quieres generar (Ej: 3): " numero
+				echo
+				sudo python requisitos/FakeData.py -n $numero && sudo python requisitos/FakeData.py -n $numero -e && sudo python requisitos/FakeData.py -n $numero -b
+				;;
+			5 )	bash encrypt.sh
+				;;
+			* )	echo
+				echo "$RRPLY No es una opcion valida"
+				sleep 1
+				bash requisitos/4.sh
+	esac
 echo
-echo "+++++++++++++++++++++++++++++++++"
-echo "MAC Original: " `cat /sys/class/net/$interfaz2/address`
-echo "+++++++++++++++++++++++++++++++++"
-sudo ifconfig $interfaz2 promisc >/dev/null
-sudo ifconfig $interfaz2 down >/dev/null
-sleep 1
-sudo macchanger -a $interfaz2 >/dev/null
-sudo ifconfig $interfaz2 up >/dev/null
-echo
-echo "==========================="
-echo "Cambiando la MAC de $interfaz2"
-echo "==========================="
-echo "------->""                  |"
-sleep 1
-echo "------------>""             |"
-sleep 1
-echo "------------------->""      |"
-sleep 1
-echo "------------------------->""|"
-echo "==========================="
-echo
-echo "++++++++++++++++++++++++++++++"
-echo "Nueva MAC: " `cat /sys/class/net/$interfaz2/address`
-echo "++++++++++++++++++++++++++++++"
 echo
 echo "#####################"
 echo "[1] Volver al Menu"
@@ -50,8 +60,8 @@ echo "[2] Volver a ejecutar"
 echo "[3] Salir"
 echo "#####################"
 echo
-read -p "Elige una opcion: " opc1
-	case $opc1 in
+read -p "Elige una opcion: " opc2
+	case $opc2 in
 			1 )	bash encrypt.sh
 				;;
 			2 )	bash requisitos/4.sh

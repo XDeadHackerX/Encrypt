@@ -7,7 +7,7 @@ echo "                               █▄─▄▄─█▄─▀█▄─▄�
 echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v1.0  ︻デ═一 " 
+echo "                               ︻デ═一  Created by: XDeadHackerX v1.1  ︻デ═一 " 
 echo "          -------------------------------------------------------------------------------------------"
 echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 echo "          -------------------------------------------------------------------------------------------"
@@ -32,10 +32,27 @@ read -p "[*] Elige una opcion: " opc1
 				sudo apt-get install curl -y
 				sudo apt install git -y
 				cd requisitos
+				sudo pip install -r requirements.txt
+				cd ..
 				sudo rm -r linux-cli
-				sudo git clone https://github.com/ProtonVPN/linux-cli && cd linux-cli && sudo apt install -y openvpn dialog python3-pip python3-setuptools && python3 -m pip install protonvpn-cli && protonvpn init
+				sudo git clone https://github.com/ProtonVPN/linux-cli && cd linux-cli && sudo apt install -y openvpn dialog python3-pip python3-setuptools && sudo python3 -m pip install protonvpn-cli
 				cd ..
 				cd ..
+				clear
+				echo 
+				echo "                               █████████████████████████████████████████████"
+				echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
+				echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
+				echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
+				echo "                             __________________________________________________"					
+				echo "                               ︻デ═一  Created by: XDeadHackerX v1.1  ︻デ═一 " 
+				echo "          -------------------------------------------------------------------------------------------"
+				echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
+				echo "          -------------------------------------------------------------------------------------------"
+				echo
+				echo
+				echo "[*] Rellena con el (OpenVPN / IKEv2 username) y el (OpenVPN / IKEv2 password) de tu cuenta ProtonVPN: "
+				protonvpn init
 				;;
 			2 )	echo
 				echo "[*] Rellena con el (OpenVPN / IKEv2 username) y el (OpenVPN / IKEv2 password) de tu cuenta ProtonVPN: "
