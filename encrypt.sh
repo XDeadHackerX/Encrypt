@@ -13,17 +13,17 @@ echo "          Cualquier acción y o actividad relacionada con Encrypt es únic
 echo "          -------------------------------------------------------------------------------------------"
 echo
 echo
-echo "================================"
-echo "[0] Configurar Herramienta""     |"
-echo "[1] Informacion del Equipo""     |"
-echo "[2] Encriptar Equipo""           |"
-echo "[3] Cambiar MAC Tarjeta de RED"" |"
-echo "[4] Generar una identidad Falsa""|"
-echo "[5] Salir""                      |"
-echo "================================"
+echo "                                     ================================"
+echo "                                     [0] Configurar Herramienta""     |"
+echo "                                     [1] Informacion del Equipo""     |"
+echo "                                     [2] Encriptar Equipo""           |"
+echo "                                     [3] Cambiar MAC Tarjeta de RED"" |"
+echo "                                     [4] Generar una identidad Falsa""|"
+echo "                                     [5] --------> Salir"" <--------- |"
+echo "                                     ================================"
 echo
 echo
-read -p "[*] Elige una opcion: " opc
+read -p "  [*] Elige una opcion: " opc
 	case $opc in
 			0 )	bash requisitos/0.sh
 				;;

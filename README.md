@@ -2,7 +2,7 @@
 
 > Herramienta creada por XDeadHackerX
 
-[![Encrypt-1-1.png](https://i.postimg.cc/qRhH6vDD/Encrypt-1-1.png)](https://postimg.cc/vgsNpbs5)
+[![Encrypt-1-1.png](https://i.postimg.cc/5NChBTBy/Encrypt-1-1.png)](https://postimg.cc/PPdVh6Fn)
 
 ## 💡 Funciones 💡
 
