@@ -12,7 +12,7 @@ Foto
 
 :ballot_box_with_check: Cambio de DNS (Encriptada, no log y rapida)
 
-:ballot_box_with_check: Redireccionar la Terminal a traves de Tor
+:ballot_box_with_check: Redireccionar la Terminal a traves de Tor (Todo el trafico que salga y entre)
 
 :ballot_box_with_check: Cambio de Mac en Tarjeta de Red Externa (Aleatoria)
 

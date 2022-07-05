@@ -7,7 +7,7 @@ echo "                               █▄─▄▄─█▄─▀█▄─▄�
 echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v1.0  ︻デ═一 " 
+echo "                               ︻デ═一  Created by: XDeadHackerX v1.1  ︻デ═一 " 
 echo "          -------------------------------------------------------------------------------------------"
 echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 echo "          -------------------------------------------------------------------------------------------"
@@ -17,10 +17,9 @@ echo "================================"
 echo "[0] Configurar Herramienta""     |"
 echo "[1] Informacion del Equipo""     |"
 echo "[2] Encriptar Equipo""           |"
-echo "[3] Desencriptar Equipo""        |"
-echo "[4] Cambiar MAC Tarjeta de RED"" |"
-echo "[5] MAC original Tarjeta de RED""|"
-echo "[6] Salir""                      |"
+echo "[3] Cambiar MAC Tarjeta de RED"" |"
+echo "[4] Generar una identidad Falsa""|"
+echo "[5] Salir""                      |"
 echo "================================"
 echo
 echo
@@ -36,9 +35,7 @@ read -p "[*] Elige una opcion: " opc
 				;;
 			4 )	bash requisitos/4.sh
 				;;
-			5 )	bash requisitos/5.sh
-				;;
-			6 )	exit
+			5 )	exit
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"
