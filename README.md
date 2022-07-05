@@ -52,7 +52,7 @@
 
 (v1.0) ---> Versión Original.
 
-(v1.1) ---> Nuevo Apartado ([4]Generar una identidad Falsa), Restructuración visual, Correcciones visuales, Mejor experiencia para el usuario.
+(v1.1) ---> Nuevo Apartado ([4]Generar una identidad Falsa), Restructuración visual, correcciones visuales, mejoras en la experiencia del usuario.
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
