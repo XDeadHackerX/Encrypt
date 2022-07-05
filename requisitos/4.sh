@@ -19,7 +19,7 @@ echo "=================================================================="
 echo "[1] Nombre, Apellidos, Correo Electronico, Fecha de Nacimiento""   |"
 echo "[2] DNI, Telefono Fijo, Telefono Movil, Ciudad, Seguridad Social"" |"
 echo "[3] Tarjeta de Credito, Caducidad, CVV, Numero de Cuenta (IBAN)""  |"
-echo "[4] -------------------------> TODO""<---------------------------- |"
+echo "[4] -------------------------> TODO"" <--------------------------- |"
 echo "[5] Volver al Menu""                                               |"
 echo "=================================================================="
 echo
