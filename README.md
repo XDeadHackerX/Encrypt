@@ -44,7 +44,9 @@
 
 [3] En el caso de un error con la VPN (IP Pública) seleccione la opción 0(Configurar Herramienta) y luego la opción 2(Configurar Cuenta ProtonVPN), una vez ah vuelves a introducir las credenciales que te proporciona la página web. (No poner el nombre o correo de nuestra cuenta sino el que nos proporciona ProtonVPN al registrarte)
 
-[4] El Script está en desarrollo, con el paso del tiempo se irá mejorando y metiendo nuevas funciones.
+[4] Cada vez que se reinicie o se apague la máquina se quitaran las medidas de seguridad de la opción 2 y 3, por lo que se recomienda Encriptar el equipo cuando se encienda y Desencriptarlo antes de apagarlo para no dejar Huella ni generar errores. 
+
+[5] El Script está en desarrollo, con el paso del tiempo se irá mejorando y metiendo nuevas funciones.
 
 ## 🔎 Versiones 🔎
 
