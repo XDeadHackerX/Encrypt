@@ -16,7 +16,7 @@ Foto
 
 :ballot_box_with_check: Cambio de Mac en Tarjeta de Red Externa (Aleatoria)
 
-:ballot_box_with_check: Generar una Identidad Falsa/Fake 
+:ballot_box_with_check: Generar una Identidad Falsa/Fake (Nombre, Apellidos, Correo Electronico, Fecha de Nacimiento, DNI, Telefono Fijo, Telefono Movil, Ciudad, Seguridad Social, Tarjeta de Credito, Caducidad, CVV, Numero de Cuenta (IBAN))
 
 ## 🛠 Instalar Herramienta 🛠
 
