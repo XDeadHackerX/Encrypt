@@ -16,7 +16,7 @@ echo
 echo "                                     ================================"
 echo "                                     [0] Configurar Herramienta""     |"
 echo "                                     [1] Informacion del Equipo""     |"
-echo "                                     [2] Encriptar Equipo""           |"
+echo "                                     [2] Encriptar/Proteger Equipo""  |"
 echo "                                     [3] Cambiar MAC Tarjeta de RED"" |"
 echo "                                     [4] Generar una identidad Falsa""|"
 echo "                                     [5] Extraer/Eliminar Metadatos"" |"
