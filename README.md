@@ -2,7 +2,7 @@
 
 > Herramienta creada por XDeadHackerX
 
-[![Encrypt-1-1.png](https://i.postimg.cc/5NChBTBy/Encrypt-1-1.png)](https://postimg.cc/PPdVh6Fn)
+[![Encrypt-1-3.png](https://i.postimg.cc/7Zs8hgWC/Encrypt-1-3.png)](https://postimg.cc/876nnrDD)
 
 ## 💡 Funciones 💡
 
@@ -17,6 +17,10 @@
 :ballot_box_with_check: Cambio de Mac en Tarjeta de Red Externa (Aleatoria)
 
 :ballot_box_with_check: Generar una Identidad Falsa/Fake (Nombre, Apellidos, Correo Electrónico, Fecha de Nacimiento, DNI, Teléfono Fijo, Teléfono Móvil, Ciudad, Seguridad Social, Tarjeta de Crédito, Caducidad, CVV, Número de Cuenta (IBAN))
+
+:ballot_box_with_check: Extraer o Eliminar los Metadatos de un archivo
+
+:ballot_box_with_check: Eliminar un archivo de forma permanente (Se ejecutan 38 pasadas sobre el archivo haciendo que este quede totalmente irrecuperable por softwares avanzados de recuperación de archivos eliminados)
 
 ## 🛠 Instalar Herramienta 🛠
 
@@ -46,13 +50,15 @@
 
 [4] Cada vez que se reinicie o se apague la máquina se quitaran las medidas de seguridad de la opción 2 y 3, por lo que se recomienda Encriptar el equipo cuando se encienda y Desencriptarlo antes de apagarlo para no dejar Huella ni generar errores. 
 
-[5] El Script está en desarrollo, con el paso del tiempo se irá mejorando y metiendo nuevas funciones.
-
 ## 🔎 Versiones 🔎
 
 (v1.0) ---> Versión Original.
 
 (v1.1) ---> Nuevo Apartado ([4]Generar una identidad Falsa), Restructuración visual, correcciones visuales, mejoras en la experiencia del usuario.
+
+(v1.2) ---> Nuevo Apartado ([5] Extraer/Eliminar Metadatos), esta opción será capaz de extraer todos los metadatos de un archivo con solo dejarlo caer en la terminal y de igual manera podrá eliminarlos.
+
+(v1.3) ---> Nuevo Apartado ([6] Eliminar Archivos de Forma permanente), Nueva función dentro del Apartado 2 que muestra la nueva información con la que vas a salir a Internet y Conectarte a una Red Wifi (Nueva IP Publica, nueva MAC, nuevo DNS, lo único que no te muestra es que el tráfico de la terminal está pasando por Tor, pero si está pasando para comprobarlo escribimos "service tor status").
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
