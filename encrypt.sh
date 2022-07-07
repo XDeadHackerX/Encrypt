@@ -23,7 +23,7 @@ echo "                                     [5] --------> Salir"" <--------- |"
 echo "                                     ================================"
 echo
 echo
-read -p "  [*] Elige una opcion: " opc
+read -p "[*] Elige una opcion: " opc
 	case $opc in
 			0 )	bash requisitos/0.sh
 				;;
