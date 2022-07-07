@@ -13,7 +13,7 @@ echo "          Cualquier acción y o actividad relacionada con Encrypt es únic
 echo "          -------------------------------------------------------------------------------------------"
 echo
 echo
-echo "[2] Encriptar Equipo"
+echo "[2] Encriptar/Proteger Equipo"
 echo
 echo "================================"
 echo "[1] Encriptar Equipo""           |"
