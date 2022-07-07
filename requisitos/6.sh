@@ -13,32 +13,13 @@ echo "          Cualquier acción y o actividad relacionada con Encrypt es únic
 echo "          -------------------------------------------------------------------------------------------"
 echo
 echo
-echo "[5] Extraer/Eliminar Metadatos"
+echo "[6] Eliminar Archivos de forma Permamente"
 echo
-echo "========================================="
-echo "1º Extraer Metadatos de un fichero""      |"
-echo "-----------------------------------------"
-echo "2º Eliminar Metadatos de un fichero""     |"
-echo "-----------------------------------------"
-echo "3º Eliminar Metadatos de un directorio""  |"
-echo "========================================="
+read -p "[*] Escibe el nombre del archivo con su ruta o deja caer el archivo en la Terminal (Ej: /home/kali/Escritorio/Prueba.png): " archivo
 echo
-read -p "Elige una opcion: " opc1
-	case $opc1 in
-			1 )	read -p "[*] Escibe el nombre del archivo con su ruta (Ej: /home/kali/Escritorio/Prueba.png): " meta
-				sudo exiftool -v -s -G $meta
-				;;
-			2 )	read -p "[*] Escibe el nombre del archivo con su ruta (Ej: /home/kali/Escritorio/Prueba.png): " meta
-				sudo exiftool -r -overwrite_original -all= $meta
-				;;
-			3 )	read -p "[*] Escibe el nombre del archivo con su ruta (Ej: /home/kali/Escritorio/prueba/): " meta
-				sudo exiftool -r -overwrite_original -all= $meta
-				;;
-			* )	echo
-				echo "$RRPLY No es una opcion valida"
-				sleep 1
-				bash requisitos/5.sh
-	esac
+echo "[#] Este proceso puede llegar a tardar dependiendo del archivo"
+echo
+sudo srm -vz -r $archivo
 echo
 echo
 echo "#####################"
@@ -47,11 +28,11 @@ echo "[2] Volver a ejecutar"
 echo "[3] Salir"
 echo "#####################"
 echo
-read -p "Elige una opcion: " opc2
-	case $opc2 in
+read -p "Elige una opcion: " opc1
+	case $opc1 in
 			1 )	bash encrypt.sh
 				;;
-			2 )	bash requisitos/5.sh
+			2 )	bash requisitos/6.sh
 				;;
 			3 )	exit && clear
 				;;
