@@ -32,11 +32,13 @@
 
 4) cd Encrypt
 
-5) chmod 777 Encrypt.sh
+5) chmod 777 encrypt.sh
 
-6) bash Encrypt.sh
+6) bash encrypt.sh
 
-7) Marcamos la opción 0 para instalar las dependencias (Solo marcar la primera vez)
+7) Marcamos la opción 0 y luego 1 para instalar las dependencias (Solo marcar la primera vez)
+
+8) Cuando termine de Instalar las dependecias te preguntara por las credenciales de ProtonVPN, las ingresamos
 
 8) Ya podemos disfrutar de la herramienta
 
@@ -44,7 +46,7 @@
 
 [1] Para poder cambiar la IP Pública debemos tener una cuenta en ProtonVPN
 
-[2] Las opciones 4 y 5 para que funcionen de forma correcta se recomienda antes de su uso tener la Tarjeta de Red en Modo Monitor
+[2] Las opciones 3 para que funcionen de forma correcta se recomienda antes de su uso tener la Tarjeta de Red en Modo Monitor
 
 [3] En el caso de un error con la VPN (IP Pública) seleccione la opción 0(Configurar Herramienta) y luego la opción 2(Configurar Cuenta ProtonVPN), una vez ah vuelves a introducir las credenciales que te proporciona la página web. (No poner el nombre o correo de nuestra cuenta sino el que nos proporciona ProtonVPN al registrarte)
 
