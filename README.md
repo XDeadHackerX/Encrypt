@@ -10,7 +10,7 @@
 
 *Os pido por favor que si os ha gustado este gran Proyecto lo apoyéis dándole una* **Estrella** ★, *al final del repositorio también está la opción de invitarme a un café, pero sinceramente me apoyáis más dándole una* **Estrella** ★, *así veré valorado mi esfuerzo en este Proyecto.* **[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]**
 
-
+---
 
 ## 💡 Funciones 💡
 
