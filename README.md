@@ -1,34 +1,32 @@
-# 🔍 The spy's job 🔍
+# 🔐 Encrypt 🔐
 
 > Herramienta creada por XDeadHackerX
 
-[![The-Spy-s-Job-1-1.png](https://i.postimg.cc/pTkrTVM8/The-Spy-s-Job-1-1.png)](https://postimg.cc/tZZpvjTC)
+[![Encrypt-1-3.png](https://i.postimg.cc/7Zs8hgWC/Encrypt-1-3.png)](https://postimg.cc/876nnrDD)
 
 ---
 
-*Buenas, soy* **XDeadHackerX** *y quiero presentaros mi nueva herramienta llamada* **The_Spy´s_Job**. *Esta Tool está enfocado al* **OSINT** *de casi todos los ámbitos* **(Personas, Nicknames, Redes Sociales, Emails, Números de Teléfono, Páginas Webs, IPs Públicas e Imágenes)** *Mi idea era recopilar y automatizar todas las técnicas de OSINT más Avanzadas posibles en una sola Herramienta y así trabajar de la forma más cómoda y rápida posible, ya que solo tenemos que dar un par de clics y él solo se pondrá a recopilar y mostrar de forma ordenada y clasificada toda la Información. Todos los Apartados están separados por partes por si solo quieres extraer un tipo de información en concreto, pero también cuenta con la penúltima opción que combina todas las Opciones para que saque todo lo que sea capaz del dato que le hemos introducido. Deciros que iré actualizando el repositorio, añadiendo cosas nuevas y solucionando errores. Todas las Técnicas de sustracción de datos e información que aparecen en la Herramienta las he ido estudiando y almacenando durante los últimos 5 años.*
-
-*Os pido por favor que si os ha gustado este gran Proyecto lo apoyéis dándole una* **Estrella** ★, *al final del repositorio también está la opción de invitarme a un café, pero sinceramente me apoyáis más dándole una* **Estrella** ★, *así veré valorado mi esfuerzo en este Proyecto.* **[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]**
+*Herramienta enfocada a* **Blindar/Proteger** *nuestro equipo para que todo rastro que deje en Internet o en Redes Locales sea Falso e Inrasteable* **[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]**
 
 ---
 
 ## 💡 Funciones 💡
 
-:ballot_box_with_check: **OSINT a Paginas Webs** --> [*WhatWeb, Whois, Scaner de Puertos Avanzado, Informacion del Servidor, Intentar Extraer Ip real de Servidor con CloudFlare, Encriptado SSL, Listar Todas las URLs de un Dominio, Informacion Web de WordPress, Extraer Trabajadores, Correos Electronicos y Numeros de Telefono, Listar Dominios, Google Dorks, Ping a una Web desde varios Paises*]
+:ballot_box_with_check: **Cambio de IP Pública** (ProtonVPN)
 
-:ballot_box_with_check: **OSINT a Personas** --> [*Google Dorks, Redes Sociales, Imagenes, Posts, etc*]
+:ballot_box_with_check: **Cambio de MAC** (Aleatoria)
 
-:ballot_box_with_check: **OSINT a Nicknames/Alias** --> [*Google Dorks, Buscar en 174 Redes Sociales una cuenta con ese Nick, Imagenes, Posts*]
+:ballot_box_with_check: **Cambio de DNS** (Encriptada, no log y rápida)
 
-:ballot_box_with_check: **OSINT a Redes Sociales** --> [*Informacion de una Cuenta de Instagram/TikTok/Twitter/Twitch/(GitHub + email) = sin tener una cuenta*]
+:ballot_box_with_check: **Redireccionar la Terminal a través de Tor** (Todo el trafico que salga y entre)
 
-:ballot_box_with_check: **OSINT a Emails** --> [*Verificar la existencia de un Email, Buscar en 121 Redes Sociales una cuenta con ese Email, Buscar Cuenta de GitHub enlazada al Email, Google Dorks*]
+:ballot_box_with_check: **Cambio de Mac en Tarjeta de Red Externa** (Aleatoria)
 
-:ballot_box_with_check: **OSINT a Numeros de Telefono** --> [*Compañia (ISP), Ver si esta registrado en Instagram/Amazon/Snaptchat, Google Dorks, Intentar extraer el Nombre del Dueño*]
+:ballot_box_with_check: **Generar una Identidad Falsa/Fake** (Nombre, Apellidos, Correo Electrónico, Fecha de Nacimiento, DNI, Teléfono Fijo, Teléfono Móvil, Ciudad, Seguridad Social, Tarjeta de Crédito, Caducidad, CVV, Número de Cuenta (IBAN))
 
-:ballot_box_with_check: **OSINT a IPs Publicas** --> [*Compañia (ISP), Geolocalizacion de la ciudad exacta, Buscar puertos abiertos con sus servicios/version, Ping de la Web desde varios Paises*]
+:ballot_box_with_check: **Extraer o Eliminar los Metadatos de un archivo**
 
-:ballot_box_with_check: **OSINT a Imagens** --> [*Metadatos, Motor de Busqueda de Google*]
+:ballot_box_with_check: **Eliminar un archivo de forma permanente** (Se ejecutan 38 pasadas sobre el archivo haciendo que este quede totalmente irrecuperable por softwares avanzados de recuperación de archivos eliminados)
 
 ## 🛠 Instalar Herramienta 🛠
 
@@ -36,32 +34,39 @@
 
 **2)** sudo apt-get install git
 
-**3)** git clone https://github.com/XDeadHackerX/The_spy_job.git
+**3)** git clone https://github.com/XDeadHackerX/Encrypt.git
 
-**4)** cd The_spy_job
+**4)** cd Encrypt
 
-**5)** chmod 777 the_spy_job.sh
+**5)** chmod 777 encrypt.sh
 
-**6)** bash the_spy_job.sh
+**6)** bash encrypt.sh
 
 **7)** Marcamos la opción 0 y luego 1 para instalar las dependencias (Solo marcar la primera vez)
 
-**8)** Dentro de la Opcion 0 nos encontramos con los apartados 2 y 3 los cuales podemos configurar 
-dichas APIs gratuitas para sacar el maximo partido a The_spy_job
+**8)** Cuando termine de Instalar las dependecias te preguntara por las credenciales de ProtonVPN, las ingresamos
 
 **9)** Ya podemos disfrutar de la herramienta
 
 ## 🎲 Tener en Cuenta 🎲
 
-**[1]** En el Apartado 0 podemos Configurar la API de shodan.io y veriphone.io para sacar el mejor partido de esta Herramienta, las dos son gratuitas.
+**[1]** Para poder cambiar la IP Pública debemos tener una cuenta en ProtonVPN
 
-**[2]** La Opcion ([7] Informacion de una IP Publica) con el uso de VPN la mayoria de servidores dan respuestas erroneas sobre sus puertos. Para solventar esto he puesto varios Scanners y 2 de ellos te dan los puertos correctos a pesar de la VPN.
+**[2]** Las opciones 3 para que funcionen de forma correcta se recomienda antes de su uso tener la Tarjeta de Red en Modo Monitor
+
+**[3]** En el caso de un error con la VPN (IP Pública) seleccione la opción 0(Configurar Herramienta) y luego la opción 2(Configurar Cuenta ProtonVPN), una vez ah vuelves a introducir las credenciales que te proporciona la página web. (No poner el nombre o correo de nuestra cuenta sino el que nos proporciona ProtonVPN al registrarte)
+
+**[4]** Cada vez que se reinicie o se apague la máquina se quitaran las medidas de seguridad de la opción 2 y 3, por lo que se recomienda Encriptar el equipo cuando se encienda y Desencriptarlo antes de apagarlo para no dejar Huella ni generar errores. 
 
 ## 🔎 Versiones 🔎
 
 **(v1.0)** ---> Versión Original.
 
-**(v1.1)** ---> Nuevas Opciones en el Apartado [4] llamadas (Informacion + email de una cuenta de GitHub) y (Informacion de una cuenta de TikTok), Nueva Opcion en el Apartado [1] llamado (Google Dorks), Nuevo Opcion en el Apartado [5] Comprobar si tiene GitHub y saber su Username, Reparados los errores de los Apartados 6 y 7, solucionado el Bug al abrir un navegador en el SO Parrot, eliminacion de que era la Opcion 2 dentro del Apartado 4.
+**(v1.1)** ---> Nuevo Apartado ([4] Generar una identidad Falsa), Restructuración visual, correcciones visuales, mejoras en la experiencia del usuario.
+
+**(v1.2)** ---> Nuevo Apartado ([5] Extraer/Eliminar Metadatos), esta opción será capaz de extraer todos los metadatos de un archivo con solo dejarlo caer en la terminal y de igual manera podrá eliminarlos.
+
+**(v1.3)** ---> Nuevo Apartado ([6] Eliminar Archivos de Forma permanente), Nueva función dentro del Apartado 2 que muestra la nueva información con la que vas a salir a Internet y Conectarte a una Red Wifi (Nueva IP Publica, nueva MAC, nuevo DNS, lo único que no te muestra es que el tráfico de la terminal está pasando por Tor, pero si está pasando para comprobarlo escribimos "service tor status").
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
