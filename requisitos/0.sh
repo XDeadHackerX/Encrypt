@@ -7,7 +7,7 @@ echo "                               █▄─▄▄─█▄─▀█▄─▄�
 echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
+echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
 echo "          -------------------------------------------------------------------------------------------"
 echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 echo "          -------------------------------------------------------------------------------------------"
@@ -18,7 +18,8 @@ echo
 echo "================================"
 echo "[1] Instalar requisitos""        |"
 echo "[2] Configurar Cuenta ProtonVPN""|"
-echo "[3] Volver al Menu""             |"
+echo "[3] Configurar Cuenta NordVPN""|"
+echo "[4] Volver al Menu""             |"
 echo "================================"
 echo
 echo
@@ -33,10 +34,17 @@ read -p "[*] Elige una opcion: " opc1
 				sudo pip install speedtest-cli
 				sudo apt-get install curl -y
 				sudo apt install git -y
+				
 				cd requisitos
+				
 				sudo pip install -r requirements.txt
-				cd ..
 				sudo rm -r linux-cli
+				sudo rm -r kali-anonsurf
+				
+				sudo git clone https://github.com/Und3rf10w/kali-anonsurf && cd kali-anonsurf && bash installer.sh
+				
+				cd ..
+				
 				sudo git clone https://github.com/ProtonVPN/linux-cli && cd linux-cli && sudo apt install -y openvpn dialog python3-pip python3-setuptools && sudo python3 -m pip install protonvpn-cli
 				cd ..
 				cd ..
@@ -47,7 +55,7 @@ read -p "[*] Elige una opcion: " opc1
 				echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 				echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 				echo "                             __________________________________________________"					
-				echo "                               ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
+				echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
 				echo "          -------------------------------------------------------------------------------------------"
 				echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 				echo "          -------------------------------------------------------------------------------------------"
@@ -60,7 +68,12 @@ read -p "[*] Elige una opcion: " opc1
 				echo "[*] Rellena con el (OpenVPN / IKEv2 username) y el (OpenVPN / IKEv2 password) de tu cuenta ProtonVPN: "
 				protonvpn init
 				;;
-			3 )	bash encrypt.sh
+			3 )	echo
+				echo "[*] Rellena con el (Email) y la (Contraseña) de tu cuenta NordVPN: " email1
+				echo "[*] Rellena con la (Contraseña) de tu cuenta NordVPN: " pass1
+				nordvpn login --username $email1 -- password $pass1
+				;;
+			4 )	bash encrypt.sh
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"
