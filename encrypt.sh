@@ -7,7 +7,7 @@ echo "                               █▄─▄▄─█▄─▀█▄─▄�
 echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
 echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
 echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v1.3  ︻デ═一 " 
+echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
 echo "          -------------------------------------------------------------------------------------------"
 echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
 echo "          -------------------------------------------------------------------------------------------"
@@ -20,9 +20,11 @@ echo "                                     [2] Encriptar/Proteger Equipo""  |"
 echo "                                     [3] Cambiar MAC Tarjeta de RED"" |"
 echo "                                     [4] Generar una identidad Falsa""|"
 echo "                                     [5] Extraer/Eliminar Metadatos"" |"
-echo "                                     [6] Eliminar Archivos de forma"" |"
-echo "                                         Permamente""                 |"
-echo "                                     [7] --------> Salir"" <--------- |"
+echo "                                     [6] Eliminar Archivos""          |"
+echo "                                              (De forma Permamente)"" |"
+echo "                                     [7] Kill Switch""                |"
+echo "                                               (Apagado Emergencia)"" |"
+echo "                                     [8] --------> Salir"" <--------- |"
 echo "                                     ================================"
 echo
 echo
@@ -42,7 +44,9 @@ read -p "[*] Elige una opcion: " opc1
 				;;
 			6 )	bash requisitos/6.sh
 				;;
-			7 )	exit
+			7 )	bash requisitos/7.sh
+				;;
+			8 )	exit
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"

@@ -2,7 +2,7 @@
 
 > Herramienta creada por XDeadHackerX
 
-[![Encrypt-1-3.png](https://i.postimg.cc/7Zs8hgWC/Encrypt-1-3.png)](https://postimg.cc/876nnrDD)
+[![Encrypt-2-0.png](https://i.postimg.cc/L822TYd3/Encrypt-2-0.png)](https://postimg.cc/567h9t2X)
 
 ---
 
@@ -12,7 +12,9 @@
 
 ## 💡 Funciones 💡
 
-:ballot_box_with_check: **Cambio de IP Pública** (ProtonVPN)
+:ballot_box_with_check: **Cambio de IP Pública** (ProtonVPN, NordVPN)
+
+:ballot_box_with_check: **AnonSurf** (Tor Node, Proxys Tor, DNS Tor, Desactivacion de los servicios IPv6)
 
 :ballot_box_with_check: **Cambio de MAC** (Aleatoria)
 
@@ -27,6 +29,8 @@
 :ballot_box_with_check: **Extraer o Eliminar los Metadatos de un archivo**
 
 :ballot_box_with_check: **Eliminar un archivo de forma permanente** (Se ejecutan 38 pasadas sobre el archivo haciendo que este quede totalmente irrecuperable por softwares avanzados de recuperación de archivos eliminados)
+
+:ballot_box_with_check: **Kill Switch (Apagado de Emergencia)** (Apaga el Equipo sin dejar rastro, esto lo hace Desencriptando el equipo (Quitando VPN, MAC, Proxys, DNS, etz), seguidamente elimina de forma permanente los datos de la RAM (Para que no se puedan recuperar) y apaga el Equipo)
 
 ## 🛠 Instalar Herramienta 🛠
 
@@ -58,6 +62,10 @@
 
 **[4]** Cada vez que se reinicie o se apague la máquina se quitaran las medidas de seguridad de la opción 2 y 3, por lo que se recomienda Encriptar el equipo cuando se encienda y Desencriptarlo antes de apagarlo para no dejar Huella ni generar errores. 
 
+**[5]** En el Apartado 2 Opción 1 en el desplegable si elegimos la Opción Nord VPN + Proxys Tor en su ejecución nos dará el siguiente error "touch: setting times of '/etc/resolv.conf': Operation not permitted
+/etc/init.d/anonsurf: line 167: /etc/resolv.conf: Operation not permitted
+", esto se debe a que Nord VPN bloquea el Apartado DNS para que este no se pueda modificar, por lo que todas las protecciones de Tor funcionaran a excepción del DNS. (Este mismo error)
+
 ## 🔎 Versiones 🔎
 
 **(v1.0)** ---> Versión Original.
@@ -67,6 +75,8 @@
 **(v1.2)** ---> Nuevo Apartado ([5] Extraer/Eliminar Metadatos), esta opción será capaz de extraer todos los metadatos de un archivo con solo dejarlo caer en la terminal y de igual manera podrá eliminarlos.
 
 **(v1.3)** ---> Nuevo Apartado ([6] Eliminar Archivos de Forma permanente), Nueva función dentro del Apartado 2 que muestra la nueva información con la que vas a salir a Internet y Conectarte a una Red Wifi (Nueva IP Publica, nueva MAC, nuevo DNS, lo único que no te muestra es que el tráfico de la terminal está pasando por Tor, pero si está pasando para comprobarlo escribimos "service tor status").
+
+**(v2.0)** ---> Incorporación de Nord VPN, Incorporación de Anonsurf (Tor Node, Proxys Tor, DNS Tor, Desactivación de los servicios IPv6), Tanto la opción de Nord VPN como Anonsurf son opcionales. Nuevo Apartado ([7] Kill Switch (Apagado de Emergencia)) esta nueva opción tiene la función de Apagar el Equipo sin dejar rastro, esto lo hace Desencriptando el equipo (Quitando VPN, MAC, Proxys, DNS, etz), seguidamente elimina de forma permanente los datos de la RAM (Para que no se puedan recuperar) y apaga el Equipo, Correción de Error al instalar las dependencias y Cambio en algunos diseños.
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
