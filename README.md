@@ -2,7 +2,7 @@
 
 > Herramienta creada por XDeadHackerX
 
-<p align="center"><img width="95px" alt="Version" src="https://img.shields.io/badge/version-2.0-yelow.svg?style=for-the-badge"/></p>
+<p align="center"><img width="95px" alt="Version" src="https://img.shields.io/badge/version-2.0-yellow.svg?style=for-the-badge"/></p>
 
 [![Encrypt-2-0.png](https://i.postimg.cc/L822TYd3/Encrypt-2-0.png)](https://postimg.cc/567h9t2X)
 
