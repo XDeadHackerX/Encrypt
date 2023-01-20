@@ -19,7 +19,14 @@ read -p "[*] Escibe el nombre del archivo con su ruta o deja caer el archivo en 
 echo
 echo "[#] Este proceso puede llegar a tardar dependiendo del archivo"
 echo
-sudo srm -vz -r $archivo
+echo
+primera=`echo $archivo | head -c 1`
+coma="'"
+if [ $primera = $coma ]
+	then
+		fich1=`echo $archivo | cut -c 2- | rev | cut -c2- | rev`
+fi
+sudo srm -vz -r $fich1
 echo
 echo
 echo "#####################"
