@@ -24,7 +24,7 @@ echo "                                     [6] Eliminar Archivos""          |"
 echo "                                              (De forma Permamente)"" |"
 echo "                                     [7] Kill Switch""                |"
 echo "                                               (Apagado Emergencia)"" |"
-echo "                                     [8] --------> Salir"" <--------- |"
+echo "                                     [99] -------> Salir"" <--------- |"
 echo "                                     ================================"
 echo
 echo
@@ -46,7 +46,7 @@ read -p "[*] Elige una opcion: " opc1
 				;;
 			7 )	bash requisitos/7.sh
 				;;
-			8 )	exit
+			99 ) exit
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"
