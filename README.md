@@ -68,6 +68,8 @@
 /etc/init.d/anonsurf: line 167: /etc/resolv.conf: Operation not permitted
 ", esto se debe a que Nord VPN bloquea el Apartado DNS para que este no se pueda modificar, por lo que todas las protecciones de Tor funcionaran a excepción del DNS. (Este mismo error)
 
+**[6]** Si escogemos la opción de Anonsurf + Vpn la velocidad puede llegar a ser muy muy lenta.
+
 ## 🔎 Versiones 🔎
 
 **(v1.0)** ---> Versión Original.
@@ -78,7 +80,7 @@
 
 **(v1.3)** ---> Nuevo Apartado ([6] Eliminar Archivos de Forma permanente), Nueva función dentro del Apartado 2 que muestra la nueva información con la que vas a salir a Internet y Conectarte a una Red Wifi (Nueva IP Publica, nueva MAC, nuevo DNS, lo único que no te muestra es que el tráfico de la terminal está pasando por Tor, pero si está pasando para comprobarlo escribimos "service tor status").
 
-**(v2.0)** ---> Incorporación de Nord VPN, Incorporación de Anonsurf (Tor Node, Proxys Tor, DNS Tor, Desactivación de los servicios IPv6), Tanto la opción de Nord VPN como Anonsurf son opcionales. Nuevo Apartado ([7] Kill Switch (Apagado de Emergencia)) esta nueva opción tiene la función de Apagar el Equipo sin dejar rastro, esto lo hace Desencriptando el equipo (Quitando VPN, MAC, Proxys, DNS, etz), seguidamente elimina de forma permanente los datos de la RAM (Para que no se puedan recuperar) y apaga el Equipo, Correción de Error al instalar las dependencias y Cambio en algunos diseños. Solucionado error en apartados 5 y 6, debido a que si dejabas caer un fichero los comandos no funcionaban con las comillas simples que se le ponian a la ruta. Ahora muestra que "Service tor" esta activado (Anteriormente solo mostraba un "Si" como que estaba activado el servicio ahora hace y filtra un "service tor status")
+**(v2.0)** ---> Incorporación de Nord VPN, Incorporación de Anonsurf (Tor Node, Proxys Tor, DNS Tor, Desactivación de los servicios IPv6), Tanto la opción de Nord VPN como Anonsurf son opcionales. Nuevo Apartado ([7] Kill Switch (Apagado de Emergencia)) esta nueva opción tiene la función de Apagar el Equipo sin dejar rastro, esto lo hace Desencriptando el equipo (Quitando VPN, MAC, Proxys, DNS, etz), seguidamente elimina de forma permanente los datos de la RAM (Para que no se puedan recuperar) y apaga el Equipo, Correción de Error al instalar las dependencias y Cambio en algunos diseños. Solucionado error en apartados 5 y 6, debido a que si dejabas caer un fichero los comandos no funcionaban con las comillas simples que se le ponían a la ruta. Ahora muestra que "Service tor" está activado (Anteriormente solo mostraba un "Sí" como que estaba activado, el servicio ahora hace y filtra un "service tor status")
 
 ## ⭐☕ Creado por XDeadHackerX ☕⭐
 
