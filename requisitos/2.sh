@@ -32,7 +32,6 @@ read -p "Elige una opcion: " opc1
 				echo "[3] Nord VPN""                   |"
 				echo "[4] Nord VPN + Proxys Tor""      |"
 				echo "[5] Anonsurf (Proxys Tor)""      |"
-				echo "[6] Volver al Menu""             |"
 				echo "================================"
 				echo
 				read -p "Elige una opcion: " opc1
