@@ -1,18 +1,8 @@
 #!/bin/bash
 
-clear
-echo 
-echo "                               █████████████████████████████████████████████"
-echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source requisitos/0.sh
+
+Title
 echo "[5] Extraer/Eliminar Metadatos"
 echo
 echo "========================================="
@@ -31,9 +21,9 @@ read -p "Elige una opcion: " opc1
 				coma="'"
 				if [ $primera = $coma ]
 					then
-						fich1=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
+						meta=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
 				fi
-				sudo exiftool -v -s -G $fich1
+				sudo exiftool -v -s -G $meta
 				;;
 			2 )	read -p "[*] Escibe el nombre del archivo con su ruta (Ej: /home/kali/Escritorio/Prueba.png): " meta
 				echo
@@ -41,9 +31,9 @@ read -p "Elige una opcion: " opc1
 				coma="'"
 				if [ $primera = $coma ]
 					then
-						fich1=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
+						meta=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
 				fi
-				sudo exiftool -r -overwrite_original -all= $fich1
+				sudo exiftool -r -overwrite_original -all= $meta
 				;;
 			3 )	read -p "[*] Escibe el nombre del archivo con su ruta (Ej: /home/kali/Escritorio/prueba/): " meta
 				echo
@@ -51,9 +41,9 @@ read -p "Elige una opcion: " opc1
 				coma="'"
 				if [ $primera = $coma ]
 					then
-						fich1=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
+						meta=`echo $meta | cut -c 2- | rev | cut -c2- | rev`
 				fi
-				sudo exiftool -r -overwrite_original -all= $fich1
+				sudo exiftool -r -overwrite_original -all= $meta
 				;;
 			* )	echo
 				echo "$RRPLY No es una opcion valida"

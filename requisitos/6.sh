@@ -1,18 +1,8 @@
 #!/bin/bash
 
-clear
-echo 
-echo "                               █████████████████████████████████████████████"
-echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source requisitos/0.sh
+
+Title
 echo "[6] Eliminar Archivos de forma Permamente"
 echo
 read -p "[*] Escibe el nombre del archivo con su ruta o deja caer el archivo en la Terminal (Ej: /home/kali/Escritorio/Prueba.png): " archivo
@@ -24,9 +14,9 @@ primera=`echo $archivo | head -c 1`
 coma="'"
 if [ $primera = $coma ]
 	then
-		fich1=`echo $archivo | cut -c 2- | rev | cut -c2- | rev`
+		archivo=`echo $archivo | cut -c 2- | rev | cut -c2- | rev`
 fi
-sudo srm -vz -r $fich1
+sudo srm -vz -r $archivo
 echo
 echo
 echo "#####################"

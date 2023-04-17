@@ -1,18 +1,8 @@
 #!/bin/bash
 
-clear
-echo 
-echo "                               █████████████████████████████████████████████"
-echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-echo "                             __________________________________________________"					
-echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-echo "          -------------------------------------------------------------------------------------------"
-echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-echo "          -------------------------------------------------------------------------------------------"
-echo
-echo
+source requisitos/0.sh
+
+Title
 echo "[2] Encriptar/Proteger Equipo"
 echo
 echo "================================"
@@ -70,19 +60,7 @@ read -p "Elige una opcion: " opc1
 								echo "======================="
 								echo
 								protonvpn c
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Realizando ultimas configuraciones"
 								echo
 								sudo echo nameserver 1.1.1.1 > /etc/resolv.conf
@@ -114,19 +92,7 @@ read -p "Elige una opcion: " opc1
 								echo "------------------------->""|"
 								echo "==========================="
 								sleep 2
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Nuevos datos proporcionados para proteger su Identidad"
 								echo
 								echo "+++++++++++++++++++++++++++++++++++++"
@@ -176,19 +142,7 @@ read -p "Elige una opcion: " opc1
 								echo "======================="
 								echo
 								protonvpn c
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Realizando ultimas configuraciones"
 								echo
 								sudo echo nameserver 1.1.1.1 > /etc/resolv.conf
@@ -235,19 +189,7 @@ read -p "Elige una opcion: " opc1
 								echo "----------------------------------->""|"
 								echo "====================================="
 								sleep 2
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Nuevos datos proporcionados para proteger su Identidad"
 								echo
 								echo "+++++++++++++++++++++++++++++++++++++"
@@ -303,19 +245,7 @@ read -p "Elige una opcion: " opc1
 								echo "======================="
 								echo
 								nordvpn connect $pais
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Realizando ultimas configuraciones"
 								echo
 								#NordVpn no permite cambiar el DNS, pone el suyo propio
@@ -348,19 +278,7 @@ read -p "Elige una opcion: " opc1
 								echo "------------------------->""|"
 								echo "==========================="
 								sleep 2
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Nuevos datos proporcionados para proteger su Identidad"
 								echo
 								echo "+++++++++++++++++++++++++++++++++++++"
@@ -415,19 +333,7 @@ read -p "Elige una opcion: " opc1
 								echo
 								nordvpn connect $pais
 								sleep 4
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Realizando ultimas configuraciones"
 								echo
 								#NordVpn no permite cambiar el DNS, pone el suyo propio
@@ -474,19 +380,7 @@ read -p "Elige una opcion: " opc1
 								echo "----------------------------------->""|"
 								echo "====================================="
 								sleep 2
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Nuevos datos proporcionados para proteger su Identidad"
 								echo
 								echo "++++++++++++++++++++++++++++++++++++++"
@@ -539,19 +433,7 @@ read -p "Elige una opcion: " opc1
 								echo "--------------------->""|"
 								echo "======================="
 								sleep 1
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Realizando ultimas configuraciones"
 								echo
 								sudo service tor start >/dev/null
@@ -583,19 +465,7 @@ read -p "Elige una opcion: " opc1
 								echo "----------------------------------->""|"
 								echo "====================================="
 								sleep 2
-								clear
-								echo 
-								echo "                               █████████████████████████████████████████████"
-								echo "                               █▄─▄▄─█▄─▀█▄─▄█─▄▄▄─█▄─▄▄▀█▄─█─▄█▄─▄▄─█─▄─▄─█"
-								echo "                               ██─▄█▀██─█▄▀─██─███▀██─▄─▄██▄─▄███─▄▄▄███─███"
-								echo "                               ▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀"
-								echo "                             __________________________________________________"					
-								echo "                               ︻デ═一  Created by: XDeadHackerX v2.0  ︻デ═一 " 
-								echo "          -------------------------------------------------------------------------------------------"
-								echo "          Cualquier acción y o actividad relacionada con Encrypt es únicamente su responsabilidad"
-								echo "          -------------------------------------------------------------------------------------------"
-								echo
-								echo
+								Title
 								echo "[#] Nuevos datos proporcionados para proteger su Identidad"
 								echo
 								echo "+++++++++++++++++++++++++++++++++++++"
