@@ -23,7 +23,7 @@ read -p "Elige una opcion: " opc1
 				echo "+++++++++++++++++++++++++++++++++"
 				sudo ifconfig $interfaz2 promisc >/dev/null
 				sudo ifconfig $interfaz2 down >/dev/null
-				sleep 1
+				sleep 2
 				sudo macchanger -a $interfaz2 >/dev/null
 				sudo ifconfig $interfaz2 up >/dev/null
 				echo
@@ -52,7 +52,8 @@ read -p "Elige una opcion: " opc1
 				echo "MAC Actual: " `cat /sys/class/net/$interfaz2/address`
 				echo "+++++++++++++++++++++++++++++++"
 				sudo ifconfig $interfaz2 down >/dev/null
-				sleep 1
+				sleep 2.5
+				sudo ifconfig $interfaz2 promisc >/dev/null
 				sudo macchanger -p $interfaz2 >/dev/null
 				sudo ifconfig $interfaz2 up >/dev/null
 				sudo ifconfig $interfaz2 -promisc >/dev/null
