@@ -8,7 +8,9 @@
 
 ---
 
-*Herramienta enfocada a* **Blindar/Proteger** *nuestro equipo para que todo rastro que deje en Internet o en Redes Locales sea Falso e Inrasteable* **[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]**
+<p align="justify"><i>Herramienta enfocada a <strong>Blindar/Proteger</strong> nuestro equipo para que todo rastro que deje en Internet o en Redes Locales sea Falso e Inrasteable <strong>[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]</strong></i> </p> 
+
+<p align="center"><a href="#punto1">Ejemplo Gráfico</a></p>
 
 ---
 
@@ -71,6 +73,10 @@
 **[6]** Si escogemos la opción de Anonsurf + Vpn la velocidad puede llegar a ser muy muy lenta.
 
 **[7]** En caso de que tengas descargada una versión más antigua, te aconsejo borrarla y volver a instalar la herramienta (+requisitos) para solucionar errores y obtener mejoras, que hacen que la herramienta sea mucho mejor que las versiones anteriores.
+
+## 🎬 Video 🎬 <a name="punto1"></a>
+
+<p align="center"><a href="https://asciinema.org/a/600499" target="_blank"><img src="https://asciinema.org/a/600499.svg" width="700px" /></a><p>
 
 ## 🔎 Versiones 🔎
 
