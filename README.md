@@ -6,11 +6,11 @@
 
 [![Encrypt-2-0.png](https://i.postimg.cc/L822TYd3/Encrypt-2-0.png)](https://postimg.cc/567h9t2X)
 
+<p>Vídeo Demo: <a href="#punto1">Pulse aquí</a> o <a href="https://asciinema.org/a/600499">aquí</a></p>
+
 ---
 
-<p align="justify"><i>Herramienta enfocada a <strong>Blindar/Proteger</strong> nuestro equipo para que todo rastro que deje en Internet o en Redes Locales sea Falso e Inrasteable <strong>[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]</strong></i> </p> 
-
-<p align="center"><a href="#punto1">Ejemplo Gráfico</a></p>
+<p align="justify"><i>Herramienta enfocada a <strong>Blindar/Proteger</strong> nuestro equipo para que todo rastro que deje en Internet o en Redes Locales sea Falso e Inrasteable <strong>[NO ME HAGO RESPONSABLE DEL MAL USO DE ESTA HERRAMIENTA]</strong></i> </p>
 
 ---
 
