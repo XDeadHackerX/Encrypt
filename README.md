@@ -6,7 +6,7 @@
 
 [![Encrypt-2-0.png](https://i.postimg.cc/L822TYd3/Encrypt-2-0.png)](https://postimg.cc/567h9t2X)
 
-<p>Vídeo Demo: <a href="#punto1">Pulse aquí</a> o <a href="https://asciinema.org/a/600499" target="_blank">aquí</a></p>
+<p>Vídeo Demo: <a href="#punto1">Pulse aquí</a> o <a href="https://asciinema.org/a/600499">aquí</a></p>
 
 ---
 
